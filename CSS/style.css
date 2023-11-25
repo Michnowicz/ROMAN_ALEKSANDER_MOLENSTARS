@@ -686,7 +686,12 @@ h3 {
 }
 
 #sec9 button {
-    
+    margin: 30px 0 0 0px;
+    border-radius: 30px;
+    border: none;
+    padding: 10px 37px 10px 37px;
+    color: white;
+    background-color: #0ad3ef;
 }
 
 
