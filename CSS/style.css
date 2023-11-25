@@ -29,7 +29,7 @@ h3 {
     gap: 80px;
     height: 750px;
     width: 100%;
-    
+
 }
 
 .sec1Top{
@@ -49,7 +49,7 @@ h3 {
 .sec1Navbar{
     display: flex;
     gap: 50px;
-    
+
 }
 
 .sec1Navbar>a{
@@ -59,7 +59,7 @@ h3 {
     outline: none;
     text-decoration: none;
     color: white;
-    
+
 }
 
 .sec1Navbar>button{
@@ -78,7 +78,7 @@ h3 {
     justify-content: center;
     align-items: center;
     width: 100%;
-    
+
 }
 
 .sec1BottomLeft>h1{
@@ -203,7 +203,7 @@ h3 {
     width: 60%;
     height: 65%;
     opacity: calc(70%);
-    
+
 }
 .icon2{
     display: flex;
@@ -226,7 +226,7 @@ h3 {
     width: 50%;
     height: 65%;
     opacity: calc(70%);
-    
+
 }
 .icon3{
     display: flex;
@@ -249,7 +249,7 @@ h3 {
     width: 50%;
     height: 60%;
     opacity: calc(70%);
-    
+
 }
 .icon4{
     display: flex;
@@ -272,7 +272,7 @@ h3 {
     width: 50%;
     height: 65%;
     opacity: calc(70%);
-    
+
 }
 .icon5{
     display: flex;
@@ -295,7 +295,7 @@ h3 {
     width: 65%;
     height: 70%;
     opacity: calc(70%);
-    
+
 }
 .icon6{
     display: flex;
@@ -318,7 +318,7 @@ h3 {
     width: 50%;
     height: 65%;
     opacity: calc(70%);
-    
+
 }
 
 
@@ -329,6 +329,10 @@ h3 {
     width: 100%;
     height: 550px;
     background-color: #0a1650;
+    background-image: url(../Assets/images/dots-img-reversed.png);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: 0% 50%;
 
     display: flex;
     flex-direction: row;
@@ -337,18 +341,19 @@ h3 {
 }
 
 #mainCont6 {
-    width: 30%;
+    width: 50%;
 
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
 }
 
 #mainText6 {
+    margin-left: 60%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: flex-start;
 }
 
@@ -370,10 +375,15 @@ h3 {
 #mainText6 p:first-of-type {
     margin-bottom: 0;
     margin-top: 15px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #48589b;
 }
 
 #mainText6 p:last-of-type {
-    margin-bottom: 35px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #48589b;
 }
 
 #percent {
@@ -384,13 +394,32 @@ h3 {
     gap: 50px;
 }
 
-.percentText p:first-of-type {
-    font-size: 30px;
+.percentText {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
 }
 
-.percentText p:last-of-type {
+.percentText div {
+    aspect-ratio: 1/1;
+    width: 80px;
+    border: 2px solid rgba(255, 255, 255, 10%);
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.percentText div span {
+    font-size: 30px;
+    margin: 0;
+}
+
+.percentText p {
     font-size: 12px;
-    margin-top: 40px;
+    margin: 0;
 }
 
 
@@ -550,9 +579,9 @@ h3 {
     width: 100%;
     height: 600px;
     background-color: #0a1650;
-    background-image: url(../Assets/images/dots-img.png);
+    background-image: url(../Assets/images/dots-img-reversed.png);
     background-repeat: no-repeat;
-    background-position:0% 45%;
+    background-position:0% 42%;
     background-size: 15%;
 
     display: flex;
@@ -593,7 +622,7 @@ h3 {
 }
 .img8:first-child {
     background-image: url(./../Assets/images/blog-post-img1.png);
-    background-size: contain;    
+    background-size: contain;
     background-repeat: no-repeat;
 }
 .img8:last-child {
