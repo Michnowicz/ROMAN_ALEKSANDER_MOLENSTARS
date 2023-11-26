@@ -24,6 +24,7 @@ h3 {
 .sec1{
     background: url(./../Assets/images/banner-overlay-img.png) no-repeat;
     background-size: cover;
+    background-color: #0A1650;
     display: flex;
     flex-direction: column;
     gap: 80px;
@@ -72,6 +73,11 @@ h3 {
     font-size: 13px;
     font-weight: bolder;
 }
+.sec1Navbar>button:hover{
+    background-color: transparent ;
+    border: #2f90af 2px solid;
+}
+    
 
 .sec1Bottom{
     display: flex;
@@ -111,6 +117,13 @@ h3 {
     margin: 0;
     width: 50%;
 }
+.sec1BottomRight img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 75%;
+}
 
 .sec1DoubleButton{
     display: flex;
@@ -127,6 +140,11 @@ h3 {
     border-radius: 25px;
     color: white;
     font-weight: bolder;
+    
+}
+.sec1GetStarted:hover{
+    background-color: transparent ;
+    border: #2f90af 2px solid;
 }
 
 .sec1ContactUs{
@@ -137,12 +155,19 @@ h3 {
     border-radius: 25px;
     color: white;
     font-weight: bolder;
+    
+}
+.sec1ContactUs:hover{
+    background-color: transparent ;
+    border: #2f90af 2px solid;
 }
 
 /* ////////// Section 2 ////////// */
 
 .sec2{
-    background-color: #061028;
+    margin: 0;
+    padding: 0;
+    background-color: #0A1650;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -162,6 +187,8 @@ h3 {
     margin-top: 20px;
     color: #1688ac;
     text-align: center;
+    font-size: large;
+    font-weight: bolder;
     margin: 0;
     padding: 0;
 }
@@ -311,6 +338,11 @@ h3 {
     background-color: aqua;
     transition: 1s;
     transform: translate3d(0px,-10px, 0px);
+    
+}
+
+.sec2Icons>div:hover img{
+    filter: brightness(10%);
 }
 
 
@@ -323,6 +355,288 @@ h3 {
 
 
 
+/* ////////// Section 3 ////////// */
+
+.sec3{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0A1650;
+    gap: 50px;
+    background-image: url(./../Assets/images/dots-img.png);
+    background-repeat: no-repeat;
+    
+    background-position: right;
+    /* background-size: 200px 250px; */
+    background-size: 15%;
+    
+}
+
+
+
+
+.sec3Right>h3{
+    
+    color: #1688ac;
+    font-size: large;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+}
+
+.sec3Right>p>span{
+    padding: 2px;
+    font-size: 15px;
+    background-color: aqua;
+    border-radius: 45%;
+
+    background-size: contain;
+    color: #0A1650;
+}
+
+.sec3Right h2+p{
+    
+    width: 50%;
+}
+
+.sec3Right h2~p{
+    color: #667AC1;
+    font-weight: bolder;
+}
+
+.sec3Right{
+    width: 50%;
+}
+
+.sec3Left{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.sec3Photo{
+    width: 50%;
+    height: 50%;
+}
+
+.sec3Photo>img{
+    width: 100%;
+    height: 130%;
+}
+
+/* ////////// Section 4 ////////// */
+.sec4{
+    background-color: #122061;
+    width: 100%;
+    height: 595px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    background-image: url(./../Assets/images/overly-img.png);
+    background-size: contain;
+    gap: 10px;
+}
+
+.sec4Title{
+    padding: 0;
+    margin: 0;
+    color: #2aa1d3;
+    font-weight: bolder;
+}
+.sec4Title2{
+    color: white;
+    padding: 0;
+    margin: 0;
+    width: 38%;
+    text-align: center;
+}
+.sec4Cards{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    height: 40%;
+    justify-content: center;
+    align-items: center;
+    
+ 
+}
+
+.sec4Cards>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* gap: 20px; */
+    height: 100%;
+    width: 20%;
+}
+.sec4Cards>div>div>img{
+    display: flex;
+    
+    gap: 20px;
+    height: 70%;
+    width: 100%;
+}
+
+.sec4Card1Img{
+    margin-left: 5%;
+    transition: 1s;
+}
+.sec4Card2Img{
+    margin-left: 5%;
+    transition: 1s;
+}
+.sec4Card3Img{
+    margin-left: 5%;
+    transition: 1s;
+}
+.sec4Card4Img{
+    margin-left: 5%;
+    transition: 1s;
+}
+
+.sec4Card1>p{
+    color: #1688ac;
+    font-weight: bold;
+}
+.sec4Card2>p{
+    color: #1688ac;
+    font-weight: bold;
+}
+.sec4Card3>p{
+    color: #1688ac;
+    font-weight: bold;
+}
+.sec4Card4>p{
+    color: #1688ac;
+    font-weight: bold;
+}
+
+
+.sec4Card1{
+    background-color: #17256E; 
+    border-radius: 10%;
+    width: 15%;
+    height: 30%;
+}
+
+.sec4Card1{
+    transition-timing-function: ease;
+    
+}
+.sec4Card1:hover{
+    border: 1px solid aqua;
+}
+.sec4Card1:hover img{
+    transform: translateY(-20px);
+    transition: 1s;
+}
+.sec4Card2{
+    transition-timing-function: ease;
+    transition-duration: 2s;
+}
+.sec4Card2:hover{
+    border: 1px solid aqua;
+}
+.sec4Card2:hover img{
+    transform: translateY(-20px);
+    transition: 1s;
+}
+.sec4Card3{
+    transition-timing-function: ease;
+    transition-duration: 2s;
+}
+.sec4Card3:hover{
+    border: 1px solid aqua;
+}
+.sec4Card3:hover img{
+    transform: translateY(-20px);
+    transition: 1s;
+}
+.sec4Card4{
+    transition-timing-function: ease;
+    transition-duration: 2s;
+}
+.sec4Card4:hover{
+    border: 1px solid aqua;
+}
+.sec4Card4:hover img{
+    transform: translateY(-20px);
+    transition: 1s;
+}
+
+
+
+
+.sec4Card2{
+    background-color: #17256E; 
+    border-radius: 10%;
+    width: 15%;
+    height: 30%;
+}
+.sec4Card3{
+    background-color: #17256E; 
+    border-radius: 10%;
+    width: 15%;
+    height: 30%;
+}
+.sec4Card4{
+    background-color: #17256E; 
+    border-radius: 10%;
+    width: 15%;
+    height: 30%;
+}
+
+.sec4Card1>h4, .sec4Card1>p{
+    padding: 0;
+    margin: 0;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.sec4Card2>h4, .sec4Card2>p{
+    padding: 0;
+    margin: 0;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.sec4Card3>h4, .sec4Card3>p{
+    padding: 0;
+    margin: 0;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.sec4Card4>h4, .sec4Card4>p{
+    padding: 0;
+    margin: 0;
+    margin-left: 5%;
+    margin-top: 2%;
+    text-align: left;
+}
+
+.sec4Button{
+    background-color: #0ad3ef;
+    height: 45px;
+    width: 130px;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+.sec4Button:hover{
+    background-color: transparent ;
+    border: #2f90af 2px solid;
+}
+
+
+/* ////////////////////////////// Separation ////////////////////////////// */
 
 /* section6 */
 #sec6 {
