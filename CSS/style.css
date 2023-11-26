@@ -632,32 +632,40 @@ h3 {
 
 /* images */
 .img8 {
+    overflow: hidden;
     width: 340px;
     height: 317px;
 
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    border: solid 1px;
+    border-radius: 10px;
 }
 
-.img8:first-child {
-    background-image: url(./../Assets/images/blog-post-img1.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+.img8 div:first-of-type {
+    overflow: hidden;
+    position: absolute;
+    width: 340px;
+    height: 317px;
+    border-radius: 10px;
+    z-index: 1;
+    
 }
-.img8:last-child {
-    background-image: url(./../Assets/images/blog-post-img2.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+.img8 div img {
+    width: 340px;
+    height: 317px;
+    transition: transform 0.2s ease;
 }
-.img8:hover {
-    transform: scale(1.1);
+
+.img8 img:hover {
+    transform: rotate(5deg) scale(1.2);
 }
 
 .imgText8 {
     margin: 0 0 20px 15px;
     width: 320px;
+    z-index: 100;
+    position: relative;
 }
 .imgText8 p {
     font-weight: lighter;
