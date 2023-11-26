@@ -1,0 +1,70 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    /* section9 */
+    #form {
+        width: 70%;
+    }
+    #form input {
+        width: 20%;
+        padding: 2% 8% 2% 2%;
+    }
+    #sec9 textarea {
+        width: 70%;
+        padding: 0;
+    }
+
+    /* section8 */
+    #mainCont8 {
+        width: 90%;
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+    h2 {
+        font-size: 24px;
+    }
+
+    /* section6 */
+    #sec6 {
+        gap: 0px;
+    }
+
+    /* section7 */
+    .contSec7 {
+        transform: scale(1);
+    }
+    .contSec7 img {
+        height: 30px;
+    }
+
+    /* section9 */
+    #form {
+        width: 85%;
+    }
+    #form input {
+        width: 20%;
+        padding: 2% 8% 2% 2%;
+    }
+    #form input::placeholder {
+        font: 0.7rem sans-serif;
+    }
+
+    #sec9 textarea {
+        width: 85%;
+        padding: 0;
+    }
+    #sec9 textarea::placeholder {
+        font: 0.7rem sans-serif;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 425px) {
+
+}
