@@ -30,34 +30,135 @@
     /* section6 */
     #sec6 {
         gap: 0px;
+        flex-wrap: wrap;
+        height: fit-content;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    #mainCont6 {
+        width: 360px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        justify-content: center;
+        height: fit-content;
+    }
+
+    #mainText6{
+        margin: 0;
+    }
+
+    #imgCont6 {
+        aspect-ratio: 1/1;
+        width: 360px;
+    }
+
+
+    #imgCont6 div {
+        height: 40%;
+        width: 100%;
+        border-top-right-radius: 10px;
+    }
+    #imgCont6 div img {
+        height: 30px;
+        padding: 10px 0 0 5px;
+    }
+    #imgCont6 div h3{
+        margin: 5px 0 5px 5px;
+    }
+    #imgCont6 div p{
+        margin: 0 0 5px 5px;
+        font-size: 11px;
+    }
+    #imgCont6 div a {
+        margin: 0 0 0 5px;
+        font-size: 10px;
     }
 
     /* section7 */
+    #sec7 {
+        height: fit-content;
+        padding: 20px 0 20px 0;
+    }
+
+    #mainCont7 {
+        height: fit-content;
+        flex-wrap: wrap;
+    }
+
+    #mainImg7 {
+        width: 90%;
+        justify-content: center;
+    }
     .contSec7 {
-        transform: scale(1);
+        aspect-ratio: 1/1;
+        width: 100px;
     }
     .contSec7 img {
         height: 30px;
     }
+    .contSec7 h2 {
+        font-size: 18px;
+    }
+
+    #secCont7 {
+        width: 70%;
+        margin-top: 20px;
+        align-items: center;
+    }
+
+    /* section8 */
+    #sec8 {
+        height: fit-content;
+        padding: 20px 0 20px 0;
+    }
+
+    #mainCont8 {
+        flex-wrap: wrap;
+    }
+    
+    
 
     /* section9 */
     #form {
-        width: 85%;
-    }
+        width: 40%;
+        justify-content:center;
+        gap: 10px;
+        }
     #form input {
-        width: 20%;
-        padding: 2% 8% 2% 2%;
+        width: 100%;
+        padding: 2% 0% 2% 2%;
     }
     #form input::placeholder {
         font: 0.7rem sans-serif;
     }
 
+    #title9 {
+        width: 70%;
+    }
+
     #sec9 textarea {
-        width: 85%;
+        width: 40%;
         padding: 0;
     }
     #sec9 textarea::placeholder {
         font: 0.7rem sans-serif;
+    }
+
+    /* footer */
+    footer {
+        padding-top: 20px;
+        height: fit-content;
+    }
+    #mainFoot {
+        width: 90%;
+        height: fit-content;
+        padding-bottom: 20px;
+        flex-wrap: wrap;
+    }
+
+    #copyright {
+        height: fit-content;
     }
 }
 

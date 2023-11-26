@@ -435,7 +435,6 @@ h3 {
 .percentText p {
     font-size: 12px;
     margin: 20px 0 0 0;
-    text-wrap: nowrap;
 }
 
 /* right side container */
@@ -769,7 +768,7 @@ h3 {
 /* footer */
 footer {
     width: 100%;
-    height: 430px;
+    height: 370px;
     padding-top: 70px;
 
     background-color: #122061;
@@ -908,7 +907,7 @@ footer {
 /* bottom container */
 #copyright {
     width: 100%;
-    height: 50px;
+    height: fit-content;
     border-top: solid 1px rgba(255, 255, 255, 10%);
 }
 #copyright p {
