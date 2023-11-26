@@ -1,3 +1,4 @@
+/* computer screen */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     /* section9 */
     #form {
@@ -22,6 +23,7 @@
 
 
 
+/* Tablet screen */
 @media screen and (min-width: 425px) and (max-width: 768px) {
     h2 {
         font-size: 24px;
@@ -34,6 +36,7 @@
         height: fit-content;
         justify-content: center;
         padding-bottom: 20px;
+        background-size: 25%;
     }
 
     #mainCont6 {
@@ -93,6 +96,7 @@
     .contSec7 {
         aspect-ratio: 1/1;
         width: 100px;
+        padding: 2px;
     }
     .contSec7 img {
         height: 30px;
@@ -111,6 +115,7 @@
     #sec8 {
         height: fit-content;
         padding: 20px 0 20px 0;
+        background-size: 25%;
     }
 
     #mainCont8 {
@@ -131,6 +136,11 @@
     }
     #form input::placeholder {
         font: 0.7rem sans-serif;
+    }
+
+
+    #sec9 {
+        background-size: 25%;
     }
 
     #title9 {
@@ -166,6 +176,218 @@
 
 
 
+/* Phone screen */
 @media screen and (max-width: 425px) {
+    h2 {
+        font-size: 24px;
+    }
 
+    /* section6 */
+    #sec6 {
+        gap: 0px;
+        flex-wrap: wrap;
+        height: fit-content;
+        justify-content: center;
+        padding-bottom: 20px;
+        background-size: 25%;
+        
+    }
+
+    #mainCont6 {
+        width: 90%;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        justify-content: center;
+        height: fit-content;
+    }
+
+    #mainText6{
+        margin: 0;
+        height: fit-content;
+        width: 100%;
+    }
+
+    .percentText div {
+        width: 60px;
+        height: 60px;
+    }
+    .percentText div span {
+        font-size: 16px;
+    }
+    .percentText p {
+        font-size: 10px;
+    }
+
+    #imgCont6 {
+        aspect-ratio: 1/1;
+        width: 280px;
+        margin: 0 20px 0 20px;
+    }
+
+
+    #imgCont6 div {
+        height: fit-content;
+        width: 100%;
+        border-top-right-radius: 10px;
+        padding-bottom: 10px;
+    }
+    #imgCont6 div img {
+        height: 30px;
+        padding: 10px 0 0 5px;
+    }
+    #imgCont6 div h3{
+        margin: 5px 0 5px 5px;
+    }
+    #imgCont6 div p{
+        margin: 0 0 5px 5px;
+        font-size: 11px;
+    }
+    #imgCont6 div a {
+        margin: 0 0 0 5px;
+        font-size: 10px;
+    }
+
+    /* section7 */
+    #sec7 {
+        height: fit-content;
+        padding: 20px 0 20px 0;
+    }
+
+    #mainCont7 {
+        height: fit-content;
+        flex-wrap: wrap;
+    }
+
+    #mainImg7 {
+        width: 90%;
+        justify-content: center;
+    }
+    .contSec7 {
+        aspect-ratio: 1/1;
+        width: 100px;
+        padding: 2px;
+    }
+    .contSec7 img {
+        height: 30px;
+    }
+    .contSec7 h2 {
+        font-size: 18px;
+    }
+
+    #secCont7 {
+        width: 70%;
+        margin-top: 20px;
+        align-items: center;
+    }
+
+
+    /* section8 */
+    #sec8 {
+        height: fit-content;
+        padding: 20px 0 20px 0;
+        background-size: 25%;
+    }
+
+    #mainCont8 {
+        flex-wrap: wrap;
+    }
+
+    .img8 {
+        display: flex;
+        width: 250px;
+        height: 240px;
+    }
+    .img8 div:first-of-type {
+        width: 250px;
+        height: 240px;
+    }
+    .img8 div img {
+        width: 250px;
+        height: 240px;
+    }
+    .imgText8 {
+        width: 250px;
+        height: fit-content;
+    }
+    .imgText8 h3 {
+        font-size: 12px;
+    }
+
+
+    /* section9 */
+
+    #sec9 {
+        background-size: 25%;
+    }
+
+    #form {
+        width: 80%;
+        justify-content:center;
+        gap: 10px;
+        }
+    #form input {
+        width: 100%;
+        padding: 2% 0% 2% 2%;
+    }
+    #form input::placeholder {
+        font: 0.7rem sans-serif;
+    }
+
+    #title9 {
+        width: 70%;
+    }
+
+    #sec9 textarea {
+        width: 80%;
+        padding: 0;
+    }
+    #sec9 textarea::placeholder {
+        font: 0.7rem sans-serif;
+    }
+
+    /* footer */
+    footer {
+        padding-top: 20px;
+        height: fit-content;
+    }
+    #mainFoot {
+        width: 90%;
+        height: fit-content;
+        padding-bottom: 20px;
+        flex-wrap: wrap;
+    }
+
+    .footCont:first-of-type {
+        width: 40%;
+        height: fit-content;
+    }
+    .footCont:first-of-type img {
+        height: 80px;
+    }
+
+    .footCont:nth-of-type(2) {
+        width: 40%;
+        height: fit-content;
+        align-items: center;
+    }
+
+    .footCont:nth-of-type(3) {
+        width: 40%;
+        height: fit-content;
+    }
+
+    .footCont:last-of-type {
+        width: 40%;
+        height: fit-content;
+        padding: 2%;
+    }
+
+    #copyright {
+        height: fit-content;
+    }
+
+    #copyright p {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
 }
