@@ -29,7 +29,7 @@ h3 {
     flex-direction: column;
     gap: 80px;
     height: 750px;
-    width: 100%;
+    width: 100% fit-content;
 
 }
 
@@ -89,7 +89,7 @@ h3 {
 
 .sec1BottomLeft>h1{
     color: white;
-    font-size: 70px;
+    font-size: 50px;
     font-weight: bolder;
     /* text-align: center; */
     padding: 0;
@@ -174,7 +174,7 @@ h3 {
     align-items: center;
     gap: 50px;
     height: 250px;
-    width: 100%;
+    width: 100vh fit-content;
 }
 
 .sec2Title{
@@ -359,7 +359,7 @@ h3 {
 
 .sec3{
     height: 500px;
-    width: 100%;
+    width: 100% fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -431,7 +431,7 @@ h3 {
 /* ////////// Section 4 ////////// */
 .sec4{
     background-color: #122061;
-    width: 100%;
+    width: 100% fit-content;
     height: 595px;
     display: flex;
     flex-direction: column;
