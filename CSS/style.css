@@ -2,7 +2,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-
+    
     font-family: 'Roboto', sans-serif;
     color: white;
 }
@@ -824,7 +824,7 @@ h3 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
 }
 
 #mainImg7 {
@@ -841,57 +841,76 @@ h3 {
 .contSec7 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 
     background-color: #17256e;
     border-radius: 10px;
-    width: 42%;
-    aspect-ratio: 1/1;
+    width: 175px;
+    height: 160px;
     margin: 2%;
 }
 
 .contSec7 img {
     height: 40px;
-    margin-top: 2%;
+    margin-top: 28px;
+    margin-bottom: 8px;
 }
 
 .contSec7 h2 {
-    margin: 2% 0 1% 0;
+    margin: 0px 0 1% 0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
 }
 
 .contSec7 p {
     font-size: 12px;
-    margin: 0;
+    margin: 2px 0 0 0;
     color: #48589b;
+}
+
+.contSec7 div div {
+    display: flex;
+    transform: translate(12px, 2px);
+}
+
+.contSec7 div div span {
+    display: inline-block;
+    width: 20px;
+    text-align: end;
+    padding-top: 2px;
 }
 
 #secCont7 {
     width: 32%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: flex-start;
 }
 
 #secCont7 h3 {
-    margin: 0px 0px 0px 25px;
+    margin: 36px 0px 0 22px ;
     color: #2f90af;
 }
 
 #secCont7 h2 {
-    margin: 15px 0 10px 25px;
+    margin: 12px 0 10px 22px;
+    font-size: 32px;
+    word-spacing: 0px;
+    font-weight: 700;
+    
 }
 
 #secCont7 p {
-    margin: 10px 0 10px 25px;
+    margin: 8px 0 0px 22px;
     font-size: 12px;
     line-height: 20px;
     color: #48589b;
+    padding-right: 30px;
 }
 
 #secCont7 button {
-    margin: 15px 0 0 25px;
+    margin: 32px 0 0 22px;
     border-radius: 30px;
     border: none;
     padding: 10px 25px 10px 25px;
@@ -922,6 +941,10 @@ h3 {
 }
 
 /* title */
+#title8 {
+    padding-left: 8px;
+}
+
 #title8 h3 {
     margin: 0 0 10px 0;
     color: #2f90af;
@@ -931,6 +954,9 @@ h3 {
 #title8 h2 {
     margin: 0 0 20px 0;
     text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    word-spacing: 0;
 }
 
 #mainCont8 {
@@ -940,66 +966,79 @@ h3 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
 
 }
 
 /* images */
 .img8 {
     overflow: hidden;
-    width: 340px;
-    height: 317px;
+    width: 367px;
+    height: 340px;
 
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     border-radius: 10px;
+
+    background-color: red;
 }
 
 .img8 div:first-of-type {
     overflow: hidden;
     position: absolute;
-    width: 340px;
-    height: 317px;
+    width: 367px;
+    height: 340px;
     border-radius: 10px;
     z-index: 1;
     
 }
 .img8 div img {
-    width: 340px;
-    height: 317px;
-    transition: transform 0.2s ease;
+    width: 367px;
+    height: 340px;
+    transition: transform 0.5s ease;
 }
 
 .img8 img:hover {
-    transform: rotate(5deg) scale(1.2);
+    transform: rotate(2deg) scale(1.1);
 }
 
 .imgText8 {
-    margin: 0 0 20px 15px;
+    margin: 0 0 20px 24px;
     width: 320px;
     z-index: 100;
     position: relative;
 }
 .imgText8 p {
-    font-weight: lighter;
     font-size: 12px;
     margin-bottom: 0;
+    word-spacing: -2px;
+}
+.imgText8 p:hover {
+    color: #0ad3ef;
+    cursor: pointer;
 }
 .imgText8 h3 {
     font-weight: bold;
-    font-size: 18px;
-    margin-bottom: 20px;
-    letter-spacing: 2px;
+    font-size: 19px;
+    margin-bottom: 10px;
+    letter-spacing: 0px;
     margin-top: 10px;
+    line-height: 25px;
+}
+.imgText8 h3:hover {
+    color: #0ad3ef;
+    cursor: pointer;
 }
 .imgText8 a {
-    font-size: 14px;
+    font-size: 12px;
     margin: 0 0 0 0;
     text-decoration: none;
     color: white;
 }
-
+.imgText8 a:hover {
+    color: #0ad3ef;
+}
 
 
 /* end section8 */
@@ -1032,6 +1071,9 @@ h3 {
 #title9 h2 {
     margin: 10px 0 35px 0;
     text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    word-spacing: 0;
 }
 
 /* input form */
