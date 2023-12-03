@@ -2,20 +2,20 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    
+
     font-family: 'Roboto', sans-serif;
     color: white;
 }
 
 h2 {
-    font-size: 31px;
-    word-spacing: 5px;
+    font-size: 2rem;
+    word-spacing: 0.3125rem;
 }
 
 h3 {
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 400;
-    letter-spacing: 3px;
+    letter-spacing: 0.1875rem;
 }
 
 
@@ -77,7 +77,7 @@ h3 {
     background-color: transparent ;
     border: #2f90af 2px solid;
 }
-    
+
 
 .sec1Bottom{
     display: flex;
@@ -140,7 +140,7 @@ h3 {
     border-radius: 25px;
     color: white;
     font-weight: bolder;
-    
+
 }
 .sec1GetStarted:hover{
     background-color: transparent ;
@@ -155,7 +155,7 @@ h3 {
     border-radius: 25px;
     color: white;
     font-weight: bolder;
-    
+
 }
 .sec1ContactUs:hover{
     background-color: transparent ;
@@ -338,7 +338,7 @@ h3 {
     background-color: aqua;
     transition: 1s;
     transform: translate3d(0px,-10px, 0px);
-    
+
 }
 
 .sec2Icons>div:hover img{
@@ -367,18 +367,18 @@ h3 {
     gap: 50px;
     background-image: url(./../Assets/images/dots-img.png);
     background-repeat: no-repeat;
-    
+
     background-position: right;
     /* background-size: 200px 250px; */
     background-size: 15%;
-    
+
 }
 
 
 
 
 .sec3Right>h3{
-    
+
     color: #1688ac;
     font-size: large;
     font-weight: bolder;
@@ -397,7 +397,7 @@ h3 {
 }
 
 .sec3Right h2+p{
-    
+
     width: 50%;
 }
 
@@ -436,7 +436,7 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
     background-image: url(./../Assets/images/overly-img.png);
     background-size: contain;
     gap: 10px;
@@ -462,8 +462,8 @@ h3 {
     height: 40%;
     justify-content: center;
     align-items: center;
-    
- 
+
+
 }
 
 .sec4Cards>div{
@@ -477,7 +477,7 @@ h3 {
 }
 .sec4Cards>div>div>img{
     display: flex;
-    
+
     gap: 20px;
     height: 70%;
     width: 100%;
@@ -519,7 +519,7 @@ h3 {
 
 
 .sec4Card1{
-    background-color: #17256E; 
+    background-color: #17256E;
     border-radius: 10%;
     width: 15%;
     height: 30%;
@@ -527,7 +527,7 @@ h3 {
 
 .sec4Card1{
     transition-timing-function: ease;
-    
+
 }
 .sec4Card1:hover{
     border: 1px solid aqua;
@@ -574,19 +574,19 @@ h3 {
 
 
 .sec4Card2{
-    background-color: #17256E; 
+    background-color: #17256E;
     border-radius: 10%;
     width: 15%;
     height: 30%;
 }
 .sec4Card3{
-    background-color: #17256E; 
+    background-color: #17256E;
     border-radius: 10%;
     width: 15%;
     height: 30%;
 }
 .sec4Card4{
-    background-color: #17256E; 
+    background-color: #17256E;
     border-radius: 10%;
     width: 15%;
     height: 30%;
@@ -641,7 +641,7 @@ h3 {
 /* section6 */
 #sec6 {
     width: 100%;
-    height: 550px;
+    height: fit-content;
     background-color: #0a1650;
     background-image: url(../Assets/images/dots-img-reversed.png);
     background-repeat: no-repeat;
@@ -667,34 +667,34 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-top: 82px;
+    margin-top: 5.025em;
     margin-right: 1.5em;
 }
 
 #mainText6 h3 {
-    margin: 0 0 12px 0;
+    margin: 0 0 0.75rem 0;
     color: #0ad3ef;
 }
 
 #mainText6 h2 {
     margin: 0 0 0 0;
-    font-size: 32px;
-    word-spacing: 0;
+    font-size: 2rem;
+    word-spacing: 0.0625em;
 }
 
 
 #mainText6 #p2 {
     margin-bottom: 0;
-    margin-top: 15px;
+    margin-top: 10px;
     font-size: 12px;
-    line-height: 20px;
+    line-height: 22px;
     color: #5569ba;
-    
+
 }
 
 #mainText6 #p1 {
     font-size: 12px;
-    line-height: 20px;
+    line-height: 22px;
     margin: 16px 0 0 0;
     color: #5569ba;
 }
@@ -707,18 +707,19 @@ h3 {
     flex-direction: row;
     /* justify-content: center; */
     gap: 30px;
-    margin-top: 30px;
+    margin-top: 26px;
+    margin-bottom: 82px;
 }
 
 .percentText {
-    flex: 1;   
+    flex: 1;
     display: flex;
     flex-direction: column;
 }
 
 .percentText div {
-    height: 84px;
-    width: 84px;
+    height: 90px;
+    width: 90px;
     /* border: 2px solid rgba(255, 255, 255, 10%); */
     border-radius: 50%;
 
@@ -729,30 +730,30 @@ h3 {
 }
 
 .percentText:first-of-type div  {
-    background: 
+    background:
         radial-gradient(closest-side, #0a1650 94%, transparent 100% 10%),
         conic-gradient(#379fca 85%, #253279 0) ;
 }
 .percentText:nth-of-type(2) div  {
-    background: 
+    background:
         radial-gradient(closest-side, #0a1650 94%, transparent 100% 100%),
         conic-gradient(#379fca 78%, #253279 0) ;
 }
 .percentText:last-of-type div  {
-    background: 
+    background:
         radial-gradient(closest-side, #0a1650 94%, transparent 100% 100%),
         conic-gradient(#379fca 64%, #253279 0) ;
 }
 
 .percentText div span {
-    font-size: 30px;
+    font-size: 1.5rem;
     margin: 0;
-    font-family: 'Oswald', sans-serif;   
+    font-family: 'Oswald', sans-serif;
 }
 
 .percentText p {
     font-size: 13px;
-    margin: 20px 0 0 0;
+    margin: 1rem 0 0 0;
     font-weight: bold;
 }
 
@@ -839,7 +840,7 @@ h3 {
     align-items: center;
     flex-wrap: wrap;
 
-    width: 32%;
+    width: 25.25em;
 }
 
 /* right container */
@@ -850,8 +851,8 @@ h3 {
 
     background-color: #17256e;
     border-radius: 10px;
-    width: 175px;
-    height: 160px;
+    width: 11em;
+    height: 10em;
     margin: 2%;
 }
 
@@ -886,7 +887,7 @@ h3 {
 }
 
 #secCont7 {
-    width: 32%;
+    width: 25.25em;
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
@@ -903,7 +904,7 @@ h3 {
     font-size: 32px;
     word-spacing: 0px;
     font-weight: 700;
-    
+
 }
 
 #secCont7 p {
@@ -938,7 +939,7 @@ h3 {
     background-image: url(../Assets/images/dots-img-reversed.png);
     background-repeat: no-repeat;
     background-position:0% 42%;
-    background-size: 15%;
+    background-size: 11.8em;
 
     display: flex;
     flex-direction: column;
@@ -996,7 +997,7 @@ h3 {
     height: 340px;
     border-radius: 10px;
     z-index: 1;
-    
+
 }
 .img8 div img {
     width: 367px;
