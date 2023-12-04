@@ -1,5 +1,5 @@
 /* computer screen */
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
     .sec1{
         gap: 50px;
         height: 500px;
@@ -267,12 +267,93 @@
     /* footer */
     footer {
         padding-top: 3em;
+        height: fit-content;
     }
 
     #mainFoot {
         height: fit-content;
+        width: 60%;
+        padding-bottom: 3.5em;
+    }
+
+    .footCont:first-of-type {
+        padding-left: 4px;
+    }
+    .footCont:first-of-type img {
+        height: 96px
+    }
+    .footCont:first-of-type p {
+        font-size: 9px;
+        padding: 0;
+        line-height: 16px;
+    }
+
+    .footCont:nth-of-type(2) {
+        padding-left: 14px;
+    }
+    .footCont:nth-of-type(2) h3 {
+        font-size: 11px;
+    }
+    .footCont:nth-of-type(2) p {
+        font-size: 9px;
+        padding: 0;
+        line-height: 16px;
+    }
+    .footCont:nth-of-type(2) a {
+        font-size: 9px;
+        line-height: 8px;
+    }
+
+    
+    .footCont:nth-of-type(3) h3 {
+        font-size: 11px;
+        padding-left: 18px;
+    }
+    .footCont:nth-of-type(3) p {
+        font-size: 9px;
+        padding-left: 18px;
+        line-height: 8px;
+    }
+    .footCont:nth-of-type(3) p:last-of-type {
+        font-size: 9px;
+        padding-left: 18px;
+    }
+    .footCont:nth-of-type(3) div i {
+        margin: 22px 0 0 10px;
+    }
+    .footCont:nth-of-type(3) div i:first-of-type {
+        margin: 22px 0 0 10px;
+        padding-left: 8px;
+    }
+
+    .footCont:last-of-type h3 {
+        font-size: 11px;
+        padding-left: 14px;
+        margin-top: 10px;
+    }
+    #footMail input {
+        padding: 10px 16px 10px 10px;
+        font-size: 10px;
+        transform: translateX(12px)
+    }
+    #footMail i {
+        right: 10px;
+    }
+    #footBtn {
+        padding-left: 12px;
+        margin-top: 8px;
+    }
+    #termsVisible {
+        height: 8px;
+        width: 8px;
+    }
+    #footBtn p {
+        font-size: 8px;
     }
     
+    #copyright p {
+        font-size: 8px;
+    }
 }
 
 
@@ -396,22 +477,25 @@
     }
 
     #mainCont6 {
-        width: 50%;
+        width: 70%;
         padding-top: 20px;
         height: fit-content;
+        justify-content: center;
+        text-align: center;
     }
 
     #mainText6{
         margin: 0;
         padding-right: 20px;
+        align-items: center;
     }
     #percent {
         margin-bottom: 35px;
     }
 
     #imgCont6 {
-        aspect-ratio: 1/1;
-        width: 50%;
+        height: 360px;
+        width: 420px;
     }
 
     #imgCont6 div {
@@ -533,6 +617,9 @@
         height: fit-content;
         padding-bottom: 20px;
         flex-wrap: wrap;
+    }
+    .footCont:first-of-type img {
+        height: 62px;
     }
 
     #copyright {
@@ -769,6 +856,7 @@
     .footCont:first-of-type {
         width: 64%;
         height: fit-content;
+        margin-bottom: 20px;
     }
     .footCont:first-of-type img {
         height: 60px;
@@ -783,6 +871,18 @@
     .footCont:nth-of-type(3) {
         width: 40%;
         height: fit-content;
+    }
+    .footCont:nth-of-type(3) h3 {
+        padding-left: 0;
+    }
+    .footCont:nth-of-type(3) p {
+        padding-left: 0;
+    }
+    .footCont:nth-of-type(3) p:last-of-type {
+        padding-left: 0;
+    }
+    .footCont:nth-of-type(3) div i:first-of-type {
+        padding-left: 0;
     }
 
     .footCont:last-of-type {
@@ -799,4 +899,5 @@
         margin-top: 10px;
         margin-bottom: 20px;
     }
+
 }

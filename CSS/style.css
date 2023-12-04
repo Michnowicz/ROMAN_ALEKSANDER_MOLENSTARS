@@ -923,6 +923,13 @@ h3 {
     color: white;
     background-color: #0ad3ef;
 }
+#secCont7 button:hover {
+    background-color: transparent;
+    border: #2f90af 2px solid;
+    padding: 8px 22px 8px 22px;
+    cursor: pointer;
+} 
+
 
 
 /* end section7 */
@@ -1126,6 +1133,12 @@ h3 {
     color: white;
     background-color: #0ad3ef;
 }
+#sec9 button:hover {
+    background-color: transparent;
+    border: #2f90af 2px solid;
+    padding: 8px 35px 8px 35px;
+    cursor: pointer;
+} 
 
 
 /* end section9 */
