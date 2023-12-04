@@ -44,31 +44,235 @@
 /* ///////// Separation ///////// */
 
     /* section6 */
+    #mainText6 {
+        margin-right: 0;
+        margin-top: 4em;
+        width: 18.75em;
+    }
+    #mainText6 h3 {
+        font-size:  0.625rem;
+        letter-spacing: 0.14rem;
+    }
+    #mainText6 h2 {
+        font-size: 1.625rem;
+        word-spacing: 0.0625em;
+    }
+    #mainText6 #p1 {
+        font-size: 0.625rem;
+        line-height: 1.5em;
+    }
+    #mainText6 #p2 {
+        font-size: 0.625rem;
+        line-height: 1.5em;
+        margin-top: 1rem;
+    }
+
+    #percent {
+        /* transform: scale(0.8); */
+        margin-bottom: 4.25em;
+        gap: 0.5em;
+    }
+    .percentText div {
+        height: 4.5em;
+        width: 4.5em;
+    }
+    .percentText div span {
+        font-size: 1.125rem;
+    }
+    .percentText p {
+        font-size: 0.6875rem;
+        margin-top: 0.75em;
+    }
+
+
     #imgCont6 {
-        background-position: 42% 0%;
+        background-position: 60% 0%;
     }
     #imgCont6 div {
         height: 11.5em;
         width: 19em;
     }
 
+    #imgCont6 div {
+        height: 10.5em;
+        width: 15.75em;
+    }
+    #imgCont6 div img {
+        height: 2.25rem;
+    }
+    #imgCont6 div h3 {
+        font-size: 0.5rem;
+    }
+    #imgCont6 div p {
+        font-size: 0.625em;
+        margin: 0 0 10px 25px;
+    }
+    #imgCont6 div a {
+        font-size: 0.625em;
+    }
+
+
+    /* section7 */
+    #sec7 {
+        align-items: normal;
+        height: fit-content;
+    }
+
+
+    #mainImg7 {
+        width: 20em;
+        margin-top: 3.625em;
+        margin-bottom: 4em;
+    }
+    .contSec7 {
+        width: 8.75em;
+        height: 8em;
+    }
+    .contSec7 img {
+        height: 2rem;
+        margin-top: 25px;
+    }
+    .contSec7 h2 {
+        font-size: 1.25rem;
+    }
+    .contSec7 p {
+        font-size: 0.625rem;
+        margin: 0;
+    }
+
+
+    #secCont7 {
+        margin-top: 3.2em;
+        width: 20em;
+    }
+    #secCont7 h3 {
+        font-size: 0.625rem;
+        letter-spacing: 0.14rem;
+        margin: 36px 0px 0 16px;
+    }
+    #secCont7 h2 {
+        font-size: 1.625rem;
+        word-spacing: 0.0625em;
+        margin: 10px 0px 0 16px;
+    }
+    #secCont7 p {
+        font-size: 0.625rem;
+        line-height: 1.5em;
+        padding-right: 12px;
+        margin: 12px 0 0px 16px;
+        line-height: 18px;
+    }
+    #secCont7 button {
+        margin: 22px 0 0 16px;
+        font-size: 0.625rem;
+    }
+    
+
+
+    /* section8 */
+    #sec8 {
+        height: fit-content;
+        background-size: 10em;
+        background-position: -0.5% 44%;
+    }
+
+    #title8 h3 {
+        font-size: 0.625rem;
+        letter-spacing: 0.14rem;
+    }
+    #title8 h2 {
+        font-size: 1.625rem;
+        word-spacing: 0.0625em;
+        margin-top: 10px;
+    }
+
+    #mainCont8 {
+        gap: 14px;
+        margin-bottom: 4em;
+        margin-bottom: 8em;
+    }
+    .img8 {
+        width: 298px;
+        height: 270px;
+    }
+    .img8 div:first-of-type {
+        width: 298px;
+        height: 270px;
+    }
+    .img8 div img {
+        width: 298px;
+        height: 270px;
+    }
+    .imgText8 {
+        width: 270px;
+        margin: 0 0 16px 18px;
+    }
+    .imgText8 p {
+        font-size: 10px;
+    }
+    .imgText8 h3 {
+        font-size: 15.5px;
+        line-height: 20px;
+        margin-bottom: 6px;
+    }
+    .imgText8 a {
+        font-size: 10px;
+    }
+
+
+
     /* section9 */
+
+
+    #sec9 {
+        height: fit-content;
+        padding-bottom: 4.25em;
+    }
+
+    
+    #title9 h3 {
+        font-size: 0.625rem;
+        letter-spacing: 0.14rem;
+        margin: 36px 0 0px 0;
+    }
+    #title9 h2 {
+        font-size: 1.625rem;
+        word-spacing: 0.0625em;
+        margin: 10px 0 20px 0;
+    }
+
     #form {
-        width: 70%;
+        width: 60%;
+        gap: 16px;
     }
     #form input {
         width: 20%;
-        padding: 2% 8% 2% 2%;
+        padding: 1% 8% 2% 2%;
+        font-size: 10px;
     }
     #sec9 textarea {
-        width: 70%;
-        padding: 0;
+        width: 59%;
+        padding: 1% 0 2% 1%;
+        font-size: 10px;
+        margin-top: 0;
+    }
+    #sec9 button {
+        margin: 22px 0 0 6px;
+        font-size: 10px;
+        padding: 10px 34px 10px 34px;
     }
 
-    /* section8 */
-    #mainCont8 {
-        width: 90%;
+
+
+    /* footer */
+    footer {
+        padding-top: 3em;
     }
+
+    #mainFoot {
+        height: fit-content;
+    }
+    
 }
 
 
@@ -246,7 +450,7 @@
 
     #mainImg7 {
         order: 2;
-        width: 75%;
+        width: 60%;
         justify-content: center;
         margin-top: 40px;
     }
