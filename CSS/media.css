@@ -1,5 +1,5 @@
 /* computer screen */
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1023px) {
     .sec1{
         gap: 50px;
         height: 500px;
@@ -9,9 +9,16 @@
     .sec1Top{
         gap: 80px;
         padding-top: 35px;
+        
+    }
+
+    .sec1Top>img{
+        width: 130px;
+        height: 112px;
     }
 
     .sec1Navbar{
+        font-size: 15px;
         gap: 30px;
     }
 
@@ -20,12 +27,63 @@
         width: 100px;
         height: 82.75px;
     }
+    .sec1BottomLeft{
+        margin-left: 120px;
+    }
     
     .sec1BottomLeft>h1{
         font-size: 30px;
     }
     .sec1BottomLeft>p{
+        width: 80%;
         font-size: 14px;
+    }
+    .sec1GetStarted{
+        font-size: 10px;
+    }
+    .sec1ContactUs{
+        font-size: 10px;
+    }
+
+    .sec2{
+        height: 500px;
+        gap: 25px;
+    }
+
+    .sec2Icons{
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+        height: 70%; 
+        /* margin-top: 20px; */
+    }
+
+    .icon1{
+        width: 20%;
+        height: 40%;
+    }
+    .icon2{
+        width: 20%;
+        height: 40%;
+    }
+    .icon3{
+        width: 20%;
+        height: 40%;
+    }
+    .icon4{
+        width: 20%;
+        height: 40%;
+    }
+    .icon5{
+        width: 20%;
+        height: 40%;
+    }
+    .icon6{
+        width: 20%;
+        height: 40%;
+    }
+
+    .sec3Right>h3{
+        margin-top: 20px;
     }
 
     .sec3Right>p>span{
@@ -35,10 +93,48 @@
     .sec3Right>p{
         font-size: 12px;
     }
-    .sec3Photo>img{
+
+    .sec3Left{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .sec3{
+        height: 1000px;
+        gap: 35px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .sec3Photo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 100%;
         height: 100%;
+        
     }
+    /* img[alt=LaFille]{
+        width: 20px;
+    } */
+
+    .sec3Photo>img{
+        width: 80%;
+        height: 80%;
+    }
+
+    .sec4Card1>p{
+        font-size: 13px;
+    }
+    .sec4Card2>p{
+        font-size: 13px;
+    }
+    .sec4Card3>p{
+        font-size: 13px;
+    }
+    .sec4Card4>p{
+        font-size: 13px;
+    }
+
 
 
 /* ///////// Separation ///////// */
@@ -67,7 +163,7 @@
 
 
 /* Tablet screen */
-@media screen and (min-width: 425px) and (max-width: 768px) {
+@media (min-width: 425px) and (max-width: 767px) {
     /* ///////// Section 1 ///////// */
     .sec1{
         gap: 35px;
@@ -76,14 +172,19 @@
     
     
     .sec1Top{
+        flex-direction: column;
         gap: 50px;
         padding-top: 25px;
     }
 
     .sec1Navbar{
+        justify-content: center;
+        flex-wrap: wrap;
         gap: 20px;
     }
-
+    .sec1BottomLeft{
+        margin-left: 110px;
+    }
 
     .sec1Top>img{
         width: 80px;
@@ -113,6 +214,7 @@
 
     /* ///////// Section 2 ///////// */
     .sec2{
+        height: 400px;
         gap: 40px;
     }
     .sec2Title{
@@ -120,6 +222,10 @@
     }
     .sec2Title>h3{
         font-size: medium;
+    }
+
+    .sec2Icons{
+        flex-wrap: wrap;
     }
     
     .icon1{
@@ -150,22 +256,76 @@
     /* /////// Section 3 /////// */
     .sec3{
         gap: 20px;
+        flex-direction: column-reverse;
     }
+
+    .sec3Right>h2{
+        font-size: 13px;
+        margin-top: 5px;
+    }
+
     .sec3Right>h3{
+        margin-top: 5px;
         font-size: small;
     } 
     .sec3Right>p>span{
         font-size: 10px;
     }
 
+    .sec3Right>h2+p{
+        width: 80%;
+    }
+
     .sec3Right>p{
         font-size: 10px;
+        margin-top: 7px;
+        margin-bottom: 7px;
+        width: 80%;
     }
+
+    .sec3Photo{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
     .sec3Photo>img{
-        width: 70%;
+        width: 90%;
         height: 100%;
     }
 
+
+    /* ///////// Section 4 ///////// */
+    .sec4{
+        height: 1450px;
+    }
+
+    .sec4Title2{
+        
+    }
+
+    .sec4Cards{
+        height: 1200px;
+        flex-direction: column;
+    }
+
+    .sec4Card1{
+        width: 60% !important;
+        
+    }
+    .sec4Card2{
+        width: 60% !important;
+        
+    }
+    .sec4Card3{
+        width: 60% !important;
+        
+    }
+    .sec4Card4{
+        width: 60% !important;
+        
+    }
 
     /* ///////// Separation ///////// */
 
@@ -321,7 +481,10 @@
 
 
 /* Phone screen */
-@media screen and (max-width: 425px) {
+@media (min-width: 375px) and (max-width: 424px) {
+
+
+
     .sec2{
         gap: 15px;
     }
@@ -362,6 +525,43 @@
         height: 50px;
         width: 70px;
     }
+
+    .sec3{
+        height: 700px;
+        gap: 35px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .sec3Photo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        
+    }
+    /* img[alt=LaFille]{
+        width: 20px;
+    } */
+
+    .sec3Photo>img{
+        width: 80%;
+        height: 80%;
+    }
+
+    .sec4Card1>p{
+        font-size: 13px;
+    }
+    .sec4Card2>p{
+        font-size: 13px;
+    }
+    .sec4Card3>p{
+        font-size: 13px;
+    }
+    .sec4Card4>p{
+        font-size: 13px;
+    }
+
 
 /* ///////// Separation ///////// */
     h2 {
