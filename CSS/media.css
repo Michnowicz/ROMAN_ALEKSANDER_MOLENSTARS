@@ -139,22 +139,329 @@
 
 /* ///////// Separation ///////// */
 
+    /* section6 */
+    #mainText6 {
+        margin-right: 0;
+        margin-top: 4em;
+        width: 21em;
+    }
+    #mainText6 h3 {
+        font-size:  11px;
+        letter-spacing: 0.14rem;
+    }
+    #mainText6 h2 {
+        font-size: 1.625rem;
+        word-spacing: 0.0625em;
+    }
+    #mainText6 #p1 {
+        font-size: 11px;
+        line-height: 1.5em;
+    }
+    #mainText6 #p2 {
+        font-size: 11px;
+        line-height: 1.5em;
+        margin-top: 1rem;
+    }
+
+    #percent {
+        /* transform: scale(0.8); */
+        margin-bottom: 4.25em;
+        gap: 0.5em;
+    }
+    .percentText div {
+        height: 4.5em;
+        width: 4.5em;
+    }
+    .percentText div span {
+        font-size: 1.125rem;
+    }
+    .percentText p {
+        font-size: 0.6875rem;
+        margin-top: 0.75em;
+    }
+
+
+    #imgCont6 {
+        background-position: 60% 0%;
+    }
+    #imgCont6 div {
+        height: 11.5em;
+        width: 19em;
+    }
+
+    #imgCont6 div {
+        height: 10.5em;
+        width: 15.75em;
+    }
+    #imgCont6 div img {
+        height: 2.25rem;
+        padding-left: 16px;
+    }
+    #imgCont6 div h3 {
+        font-size: 11px;
+        margin-left: 16px;
+        
+    }
+    #imgCont6 div p {
+        font-size: 11px;
+        margin: 0 0 10px 16px;
+    }
+    #imgCont6 div a {
+        font-size: 11px;
+        margin-left: 16px;
+    }
+
+
+    /* section7 */
+    #sec7 {
+        align-items: normal;
+        height: fit-content;
+    }
+
+
+    #mainImg7 {
+        width: 20em;
+        margin-top: 3.625em;
+        margin-bottom: 4em;
+    }
+    .contSec7 {
+        width: 8.75em;
+        height: 8em;
+    }
+    .contSec7 img {
+        height: 2rem;
+        margin-top: 25px;
+    }
+    .contSec7 h2 {
+        font-size: 1.25rem;
+    }
+    .contSec7 p {
+        font-size: 11px;
+        margin: 0;
+    }
+
+
+    #secCont7 {
+        margin-top: 3.2em;
+        width: 20em;
+    }
+    #secCont7 h3 {
+        font-size: 11px;
+        letter-spacing: 0.14rem;
+        margin: 36px 0px 0 16px;
+        color: #0ad3ef;
+    }
+    #secCont7 h2 {
+        font-size: 1.625rem;
+        word-spacing: 0.0625em;
+        margin: 10px 0px 0 16px;
+    }
+    #secCont7 p {
+        font-size: 11px;
+        line-height: 1.5em;
+        padding-right: 12px;
+        margin: 12px 0 0px 16px;
+        line-height: 18px;
+    }
+    #secCont7 button {
+        margin: 22px 0 0 16px;
+        font-size: 11px;
+    }
+    
+
+
+    /* section8 */
+    #sec8 {
+        height: fit-content;
+        background-size: 10em;
+        background-position: -0.5% 44%;
+    }
+
+    #title8 h3 {
+        font-size: 11px;
+        letter-spacing: 0.14rem;
+    }
+    #title8 h2 {
+        font-size: 1.625rem;
+        word-spacing: 0.0625em;
+        margin-top: 10px;
+    }
+
+    #mainCont8 {
+        gap: 14px;
+        margin-bottom: 4em;
+        margin-bottom: 8em;
+    }
+    .img8 {
+        width: 298px;
+        height: 270px;
+    }
+    .img8 div:first-of-type {
+        width: 298px;
+        height: 270px;
+    }
+    .img8 div img {
+        width: 298px;
+        height: 270px;
+    }
+    .imgText8 {
+        width: 270px;
+        margin: 0 0 16px 18px;
+    }
+    .imgText8 p {
+        font-size: 11px;
+    }
+    .imgText8 h3 {
+        font-size: 15.5px;
+        line-height: 20px;
+        margin-bottom: 6px;
+        color: #0ad3ef;
+        font-weight: 400;
+    }
+    .imgText8 a {
+        font-size: 11px;
+    }
+
+
+
     /* section9 */
+
+
+    #sec9 {
+        height: fit-content;
+        padding-bottom: 4.25em;
+    }
+
+    
+    #title9 h3 {
+        font-size: 11px;
+        letter-spacing: 0.14rem;
+        margin: 36px 0 0px 0;
+        color: #0ad3ef;
+    }
+    #title9 h2 {
+        font-size: 1.625rem;
+        word-spacing: 0.0625em;
+        margin: 10px 0 20px 0;
+    }
+
     #form {
-        width: 70%;
+        width: 60%;
+        gap: 16px;
     }
     #form input {
         width: 20%;
-        padding: 2% 8% 2% 2%;
+        padding: 1% 8% 2% 2%;
+        font-size: 10px;
     }
     #sec9 textarea {
-        width: 70%;
-        padding: 0;
+        width: 59%;
+        padding: 1% 0 2% 1%;
+        font-size: 10px;
+        margin-top: 0;
+    }
+    #sec9 button {
+        margin: 22px 0 0 6px;
+        font-size: 10px;
+        padding: 10px 34px 10px 34px;
     }
 
-    /* section8 */
-    #mainCont8 {
-        width: 90%;
+
+
+    /* footer */
+    footer {
+        padding-top: 3em;
+        height: fit-content;
+    }
+
+    #mainFoot {
+        height: fit-content;
+        width: 70%;
+        padding-bottom: 3.5em;
+    }
+
+    .footCont:first-of-type {
+        padding-left: 4px;
+        width: 370px;
+    }
+    .footCont:first-of-type img {
+        height: 96px
+    }
+    .footCont:first-of-type p {
+        font-size: 11px;
+        padding: 0;
+        line-height: 16px;
+    }
+
+    .footCont:nth-of-type(2) {
+        padding-left: 14px;
+    }
+    .footCont:nth-of-type(2) h3 {
+        font-size: 11px;
+    }
+    .footCont:nth-of-type(2) p {
+        font-size: 11px;
+        padding: 0;
+        line-height: 16px;
+    }
+    .footCont:nth-of-type(2) a {
+        font-size: 11px;
+        line-height: 8px;
+    }
+
+    .footCont:nth-of-type(3) {
+        width: 240px;
+    }
+    
+    .footCont:nth-of-type(3) h3 {
+        font-size: 11px;
+        padding-left: 18px;
+    }
+    .footCont:nth-of-type(3) p {
+        font-size: 11px;
+        padding-left: 18px;
+        line-height: 8px;
+    }
+    .footCont:nth-of-type(3) p:last-of-type {
+        font-size: 11px;
+        padding-left: 18px;
+    }
+    .footCont:nth-of-type(3) div i {
+        margin: 22px 0 0 10px;
+        font-size: 12px;
+    }
+    .footCont:nth-of-type(3) div i:first-of-type {
+        margin: 22px 0 0 10px;
+        padding-left: 8px;
+    }
+
+    .footCont:last-of-type h3 {
+        font-size: 11px;
+        padding-left: 14px;
+        margin-top: 10px;
+    }
+    #footMail input {
+        padding: 10px 16px 10px 10px;
+        font-size: 10px;
+        transform: translateX(12px)
+    }
+    #footMail i {
+        right: 10px;
+    }
+    #footBtn {
+        padding-left: 12px;
+        margin-top: 8px;
+    }
+    #termsVisible {
+        height: 8px;
+        width: 8px;
+    }
+    #footBtn p {
+        font-size: 11px;
+    }
+    
+    #copyright p {
+        font-size: 11px;
     }
 }
 
@@ -301,9 +608,6 @@
         height: 1450px;
     }
 
-    .sec4Title2{
-        
-    }
 
     .sec4Cards{
         height: 1200px;
@@ -339,32 +643,36 @@
         flex-wrap: wrap;
         height: fit-content;
         justify-content: center;
-        padding-bottom: 20px;
         background-size: 25%;
     }
 
     #mainCont6 {
-        width: 360px;
-        padding-bottom: 20px;
+        width: 70%;
         padding-top: 20px;
-        justify-content: center;
         height: fit-content;
+        justify-content: center;
+        text-align: center;
     }
 
     #mainText6{
         margin: 0;
+        padding-right: 20px;
+        align-items: center;
+    }
+    #percent {
+        margin-bottom: 35px;
     }
 
     #imgCont6 {
-        aspect-ratio: 1/1;
-        width: 360px;
+        height: 360px;
+        width: 420px;
     }
 
-
     #imgCont6 div {
-        height: 40%;
-        width: 100%;
+        height: fit-content;
+        width: 80%;
         border-top-right-radius: 10px;
+        padding-bottom: 10px;
     }
     #imgCont6 div img {
         height: 30px;
@@ -386,6 +694,7 @@
     #sec7 {
         height: fit-content;
         padding: 20px 0 20px 0;
+        text-align: center;
     }
 
     #mainCont7 {
@@ -394,25 +703,34 @@
     }
 
     #mainImg7 {
-        width: 90%;
+        order: 2;
+        width: 60%;
         justify-content: center;
+        margin-top: 40px;
     }
-    .contSec7 {
-        aspect-ratio: 1/1;
-        width: 100px;
-        padding: 2px;
-    }
-    .contSec7 img {
-        height: 30px;
-    }
-    .contSec7 h2 {
-        font-size: 18px;
-    }
+
 
     #secCont7 {
         width: 70%;
+        text-align: center;
+        margin-left: 0;
+    }
+    #secCont7 h3 {
+        margin-top: 10px;
+        align-self: center;
+        margin-left: 0;
+    }
+    #secCont7 h2 {
+        margin-left: 0;
+    }
+    #secCont7 p {
+        margin-left: 0;
+        padding-right: 0;
+    }
+    #secCont7 button {
         margin-top: 20px;
-        align-items: center;
+        align-self: center;
+        margin-left: 0;
     }
 
     /* section8 */
@@ -430,7 +748,7 @@
 
     /* section9 */
     #form {
-        width: 40%;
+        width: 70%;
         justify-content:center;
         gap: 10px;
         }
@@ -452,8 +770,8 @@
     }
 
     #sec9 textarea {
-        width: 40%;
-        padding: 0;
+        width: 69%;
+        padding: 10px 0 0 1%;;
     }
     #sec9 textarea::placeholder {
         font: 0.7rem sans-serif;
@@ -469,6 +787,9 @@
         height: fit-content;
         padding-bottom: 20px;
         flex-wrap: wrap;
+    }
+    .footCont:first-of-type img {
+        height: 62px;
     }
 
     #copyright {
@@ -574,7 +895,6 @@
         flex-wrap: wrap;
         height: fit-content;
         justify-content: center;
-        padding-bottom: 20px;
         background-size: 25%;
         
     }
@@ -585,35 +905,31 @@
         padding-top: 20px;
         justify-content: center;
         height: fit-content;
+        text-align: center;
     }
 
     #mainText6{
         margin: 0;
         height: fit-content;
         width: 100%;
+        align-items: center;
     }
 
-    .percentText div {
-        width: 60px;
-        height: 60px;
+    .percentText {
+        align-items: center;
     }
-    .percentText div span {
-        font-size: 16px;
-    }
-    .percentText p {
-        font-size: 10px;
-    }
+    
 
     #imgCont6 {
         aspect-ratio: 1/1;
-        width: 280px;
+        width: 90%;
         margin: 0 20px 0 20px;
     }
 
 
     #imgCont6 div {
         height: fit-content;
-        width: 100%;
+        width: 80%;
         border-top-right-radius: 10px;
         padding-bottom: 10px;
     }
@@ -649,9 +965,8 @@
         justify-content: center;
     }
     .contSec7 {
-        aspect-ratio: 1/1;
-        width: 100px;
-        padding: 2px;
+        width: 9em;
+        height: 8em;
     }
     .contSec7 img {
         height: 30px;
@@ -661,7 +976,7 @@
     }
 
     #secCont7 {
-        width: 70%;
+        width: 90%;
         margin-top: 20px;
         align-items: center;
     }
@@ -680,16 +995,16 @@
 
     .img8 {
         display: flex;
-        width: 250px;
-        height: 240px;
+        width: 280px;
+        height: 270px;
     }
     .img8 div:first-of-type {
-        width: 250px;
-        height: 240px;
+        width: 280px;
+        height: 270px;
     }
     .img8 div img {
-        width: 250px;
-        height: 240px;
+        width: 280px;
+        height: 270px;
     }
     .imgText8 {
         width: 250px;
@@ -697,6 +1012,9 @@
     }
     .imgText8 h3 {
         font-size: 12px;
+        line-height: 14px;
+        margin-top: 6px;
+        margin-bottom: 6px;
     }
 
 
@@ -714,6 +1032,7 @@
     #form input {
         width: 100%;
         padding: 2% 0% 2% 2%;
+        flex: none;
     }
     #form input::placeholder {
         font: 0.7rem sans-serif;
@@ -726,6 +1045,7 @@
     #sec9 textarea {
         width: 80%;
         padding: 0;
+        padding: 2% 0% 2% 2%;
     }
     #sec9 textarea::placeholder {
         font: 0.7rem sans-serif;
@@ -744,15 +1064,16 @@
     }
 
     .footCont:first-of-type {
-        width: 40%;
+        width: 64%;
         height: fit-content;
+        margin-bottom: 20px;
     }
     .footCont:first-of-type img {
-        height: 80px;
+        height: 60px;
     }
 
     .footCont:nth-of-type(2) {
-        width: 40%;
+        width: 20%;
         height: fit-content;
         align-items: center;
     }
@@ -760,6 +1081,18 @@
     .footCont:nth-of-type(3) {
         width: 40%;
         height: fit-content;
+    }
+    .footCont:nth-of-type(3) h3 {
+        padding-left: 0;
+    }
+    .footCont:nth-of-type(3) p {
+        padding-left: 0;
+    }
+    .footCont:nth-of-type(3) p:last-of-type {
+        padding-left: 0;
+    }
+    .footCont:nth-of-type(3) div i:first-of-type {
+        padding-left: 0;
     }
 
     .footCont:last-of-type {
@@ -776,4 +1109,5 @@
         margin-top: 10px;
         margin-bottom: 20px;
     }
+
 }
